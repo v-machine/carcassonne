@@ -1,0 +1,97 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'checkstyle'
+apply plugin: 'jacoco'
+
+test.testLogging {
+  exceptionFormat "full"
+  events "failed", "passed", "skipped"
+}
+
+configurations.all {
+  resolutionStrategy {
+    force 'org.ow2.asm:asm:6.2.1'
+    forcedModules = [ 'org.ow2.asm:asm:6.2.1' ]
+  }
+}
+
+check.doFirst {
+  List<String> missing = new ArrayList<>();
+  for (name in [ "domain.pdf",
+                 "system_sequence.pdf",
+                 "behavioral_contract.pdf",
+                 "interaction_tile_validation.pdf",
+                 "interaction_monastery_scoring.pdf",
+                 "object.pdf",
+                 "rationale.pdf",
+                 "README.md" ]) {
+    String path = "design_documents" + File.separator + name;
+    if (!file(path).exists()) {
+      missing.add(path);
+    }
+  }
+  if (missing.size() != 0) {
+    String message = "The following files were missing:\n\n\t";
+    message += String.join("\n\t", missing);
+    message += "\n\nPlease check the expected file names in the handout.";
+    throw new GradleException(message);
+  }
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  testCompile group: 'junit', name: 'junit', version: '4.11'
+  compile 'junit:junit:4.12'
+}
+
+checkstyle {
+  ignoreFailures = true
+  toolVersion = "8.7"
+  config = resources.text.fromFile('config/checkstyle/checkstyle.xml')
+  sourceSets = [sourceSets.main]
+}
+
+buildscript {
+  repositories {
+    mavenCentral()
+    maven {
+      url 'https://plugins.gradle.org/m2/'
+    }
+  }
+  dependencies {
+    classpath 'gradle.plugin.com.github.spotbugs:spotbugs-gradle-plugin:1.6.9'
+  }
+}
+
+apply plugin: 'com.github.spotbugs'
+
+spotbugs {
+  toolVersion = '3.1.8'
+}
+
+// To generate an HTML report instead of XML
+tasks.withType(com.github.spotbugs.SpotBugsTask) {
+  reports.xml.enabled = false
+  reports.html.enabled = true
+  ignoreFailures = true
+}
+
+jacoco {
+  toolVersion = "0.8.2"
+}
+
+jacocoTestReport {
+  reports {
+    xml.enabled false
+    csv.enabled false
+    html.destination file("${buildDir}/reports/coverage")
+  }
+}
+
+apply plugin: 'application'
+application {
+  mainClassName = 'edu.cmu.cs.cs214.hw4.Main'
+}
