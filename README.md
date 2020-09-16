@@ -18,4 +18,9 @@ A set of design documents demostrating object-oriented design for the game core 
 - object-level interaction diagrams
 - object model
 
-![](/design_documents/design_documents.pdf)
+![](/design_documents/jpgs/design_documents.jpg)
+![](/design_documents/jpgs/design_documents2.jpg)
+![](/design_documents/jpgs/design_documents3.jpg)
+![](/design_documents/jpgs/design_documents4.jpg)
+![](/design_documents/jpgs/design_documents5.jpg)
+![](/design_documents/jpgs/design_documents6.jpg)
