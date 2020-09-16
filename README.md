@@ -3,6 +3,11 @@ A java and Swing implementation of [Carcassonne](https://en.wikipedia.org/wiki/C
 
 ![](/demo/01_multi_players.gif)
 
+## Design Rationale
+The overall implementation follows the conventional Model-View-Controller (MVC) framework, where the model is responsible for the core logic of the game; the controller receives requests from users and modifies the model and the view renders the model data as graphical elements.
+
+The design of the object model follows closely the abstraction level of domain models in order to minimize the representational gap. Using the principle of encapsulation, each object has its internal data structure and an API for modifying those data. To account for various completion checking and scoring mechanisms for different features, the design employs a [strategy design pattern](https://en.wikipedia.org/wiki/Strategy_pattern). Each feature type implements a common feature interface with different checking and scoring algorithms under the hood. The use of strategy pattern also decouples each features and accomodates extensibility when new features are to be added.
+
 ## Development Focus
 - A comprehensive development process of object-oriented analysis, design and implementation.
 - Practice articulating design goals, iterate design choices and use design patterns as appropriate. 
