@@ -1,5 +1,5 @@
 # Carcassonne
-A java and Swing implementation of [Carcassonne](https://en.wikipedia.org/wiki/Carcassonne_(board_game))<sup>TM</sup> —tile-based board game for two to five players with the goal of chaining regions of adjacent tiles.
+A java and Swing implementation of [Carcassonne](https://en.wikipedia.org/wiki/Carcassonne_(board_game))<sup>TM</sup> —tile-based board game for two to five players with the goal of chaining regions of adjacent tiles. The rules of Carcassonne can be found [here])(https://github.com/v-machine/carcassonne/blob/master/design_documents/rules.pdf).
 
 ![](/demo/01_multi_players.gif)
 
