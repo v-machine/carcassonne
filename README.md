@@ -19,4 +19,3 @@ A set of design documents demostrating object-oriented design for the game core 
 - object model
 
 ![](/design_documents/design_documents.pdf)
-
