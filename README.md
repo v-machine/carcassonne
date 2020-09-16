@@ -17,5 +17,6 @@ A set of design documents demostrating object-oriented design for the game core 
 - behavioral contracts for playing a tile
 - object-level interaction diagrams
 - object model
-[Insert document here]
+
+![](/design_documents/design_documents.pdf)
 
