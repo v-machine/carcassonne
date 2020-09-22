@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b876356e-0b46-4da7-ac22-ca6488e4609c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../6/src/main/java/edu/cmu/cs/cs214/hw6/parallel/CompareRevParallel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../6/src/main/java/edu/cmu/cs/cs214/hw6/parallel/CompareRevParallel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/17-214_Homework_4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/17-214_Homework_4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Carcassonne.png:Zone.Identifier" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,22 +47,22 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1S0zzM7Fonb0DLHyOqhZMHnqP28" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../git_codeReview/Recitation10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -139,18 +148,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -169,18 +167,42 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="656" y="379" key="com.intellij.ide.util.TipDialog" timestamp="1581552386181">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state x="684" y="414" key="#Notifications" timestamp="1600303409864">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="656" y="379" key="com.intellij.ide.util.TipDialog/0.30.1920.1050/3840.0.1920.1080@0.30.1920.1050" timestamp="1581552386181" />
+    <state x="684" y="414" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1600303409864" />
+    <state width="1358" height="278" key="GridCell.Tab.0.bottom" timestamp="1600303872827">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1358" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600303872827" />
+    <state width="1358" height="278" key="GridCell.Tab.0.center" timestamp="1600303872823">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1358" height="278" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600303872823" />
+    <state width="1358" height="278" key="GridCell.Tab.0.left" timestamp="1600303872822">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1358" height="278" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600303872822" />
+    <state width="1358" height="278" key="GridCell.Tab.0.right" timestamp="1600303872826">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1358" height="278" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600303872826" />
+    <state x="454" y="190" key="SettingsEditor" timestamp="1600303785547">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="454" y="190" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1600303785547" />
   </component>
 </project>
